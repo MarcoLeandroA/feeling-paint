@@ -2,7 +2,7 @@ export function Desings(props) {
   return (
     <div className='desings-container'>
       <div className="desing">
-        <a href="https://www.instagram.com/feeling_paint/">
+        <a href="https://www.instagram.com/feeling_paint/" target="_blank">
           <img src={`./images/desing-${props.img}.webp`} alt="image" className="desing-img" />
         </a>
         <h3 className="p-2">{props.title}</h3>
