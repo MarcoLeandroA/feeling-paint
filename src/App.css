@@ -1,0 +1,27 @@
+.desings-body {
+  background: #2e2e2e;
+}
+
+.desings-body h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.desings-body h2:hover {
+  text-shadow: 0 0 10px white;
+}
+
+.desings-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 990px) {
+  .desings-main {
+    flex-wrap: wrap;
+  }
+}
